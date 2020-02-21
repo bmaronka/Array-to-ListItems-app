@@ -32,7 +32,7 @@ const Item = ({ user }) => (
         <h1>User: {user.name}</h1>
         <p>Info about user</p>
         <p>User age: <strong>{user.age}</strong></p>
-        <p>User sex: </p>
+        <p>User sex: {user.sex}</p>
     </div>
 )
 
